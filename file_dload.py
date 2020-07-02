@@ -37,11 +37,10 @@ pyautogui.typewrite(['left', 'enter'])
 now = datetime.datetime.now()
 nowtime = datetime.datetime.strftime(now, '%c')
 
-account_sid = 'AC1900d2845d6de1bf47fed90797644a60'
-auth_token = '3f0e14a933b5acfdd42aa1aec5b2d936'
-client = Client(account_sid, auth_token)
+#auth_token = 
+#client = Client(account_sid, auth_token)
 
-message = client.messages .create( body="DB upgraded on {}.".format(nowtime), from_='+12133772445',  to='+353874112360' )
+#message = client.messages .create( body="DB upgraded on {}.".format(nowtime), from_='+12133772445',  to='+353874112360' )
 
 
 
